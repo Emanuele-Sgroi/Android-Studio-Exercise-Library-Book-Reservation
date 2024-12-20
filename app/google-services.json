@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "734867882000",
+    "project_id": "registration-android-app-f08a0",
+    "storage_bucket": "registration-android-app-f08a0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734867882000:android:789b5d26696130bd7bca95",
+        "android_client_info": {
+          "package_name": "com.example.library_book_reservation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfsr7Py3uliKsNGkrjtZBtXnBJB5BeyuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734867882000:android:04331a120bd5b4ab7bca95",
+        "android_client_info": {
+          "package_name": "com.example.registration_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfsr7Py3uliKsNGkrjtZBtXnBJB5BeyuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

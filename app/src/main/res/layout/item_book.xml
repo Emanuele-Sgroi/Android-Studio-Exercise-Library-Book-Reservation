@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:elevation="5dp">
+
+    <ImageView
+        android:id="@+id/imageBook"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp">
+        <TextView
+            android:id="@+id/textBookName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Name"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/textBookAuthors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Authors"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/textBookPublisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Publisher"
+            android:layout_marginTop="4dp"/>
+
+        <Button
+            android:id="@+id/buttonReserve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reserve Book"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_reserve"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have Reserved:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="6dp"/>
+    <TextView
+        android:id="@+id/textReservationDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reservation details here"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonStay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remain in this page"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700" />
+
+
+    <Button
+        android:id="@+id/buttonGoCheckout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to checkout"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/button_checkout"/>
+
+</LinearLayout>
